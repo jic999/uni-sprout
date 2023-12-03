@@ -1,13 +1,11 @@
 <script setup>
-const title = ref('个人中心')
+const text = ref('Number is')
+
+const counterStore = useCounterStore()
 </script>
 
 <template>
-  <div>
-    {{ title }}
+  <div p-sm>
+    {{ `${text} ${counterStore.count}` }}
   </div>
 </template>
-
-<style lang="scss" scoped>
-
-</style>
