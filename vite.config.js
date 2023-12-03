@@ -15,4 +15,9 @@ export default defineConfig({
     }),
     Unocss(),
   ],
+  build: {
+    watch: {
+      exclude: ['node_modules/**', '/__uno.css'],
+    },
+  },
 })
