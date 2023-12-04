@@ -15,6 +15,11 @@ export default defineConfig({
     }),
     Unocss(),
   ],
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
   build: {
     watch: {
       exclude: ['node_modules/**', '/__uno.css'],
