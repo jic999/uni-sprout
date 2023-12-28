@@ -25,7 +25,7 @@
     "backgroundColor": "#FFFFFF",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/index",
         "iconPath": "static/tabbar/home.png",
         "selectedIconPath": "static/tabbar/home_active.png",
         "text": "主页"
