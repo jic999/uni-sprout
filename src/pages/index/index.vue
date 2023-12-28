@@ -30,7 +30,7 @@ onLoad(() => {
       <button @click="counterStore.decrease">
         -
       </button>
-      <uni-tag :text="String(counterStore.count)" type="primary" />
+      <div>{{ counterStore.count }}</div>
       <button @click="counterStore.increase">
         +
       </button>
